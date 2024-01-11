@@ -1,0 +1,275 @@
+.international-1,
+.international-2,
+.international-3 {
+  height: 600px;
+  position: relative;
+  display: flex;
+}
+
+.article-date {
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  right: 24px;
+}
+
+.article-date p {
+  color: #f40f97;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.article-texte {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+}
+
+h3 {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.international-1 img,
+.international-2 img,
+.international-3 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 14px;
+}
+
+.international-2 .article-date p,
+.international-3 .article-date p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.international-2 h3,
+.international-3 h3 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.international-2 p,
+.international-3 p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.legende {
+  position: absolute;
+  bottom: -12px;
+  width: 100%;
+  //   border: 1px solid red;
+}
+
+.comment {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 24px;
+}
+
+.comment i {
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 6px;
+}
+
+.legende .nbr-comment {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 10px;
+}
+
+.favourite {
+  position: absolute;
+  right: 24px;
+  margin-top: 6px;
+}
+
+.favourite i {
+  font-size: 20px;
+  line-height: 20px;
+  color: #f40f97;
+}
+
+@media (max-width: 1024px) {
+  .international-1,
+  .international-2,
+  .international-3 {
+    height: 500px;
+  }
+
+  .article-date {
+    left: 14px;
+    right: 14px;
+  }
+
+  .article-date p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .article-texte {
+    left: 14px;
+    right: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .international-2 .article-date p,
+  .international-3 .article-date p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .international-2 h3,
+  .international-3 h3 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .international-2 p,
+  .international-3 p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .international-2,
+  .international-3 {
+    margin-top: 80px;
+  }
+
+  .comment {
+    left: 14px;
+  }
+
+  .comment i {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .legende .nbr-comment {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 8px;
+  }
+
+  .favourite {
+    right: 14px;
+  }
+
+  .favourite i {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .international-1,
+  .international-2,
+  .international-3 {
+    height: 400px;
+  }
+
+  .article-date {
+    left: 10px;
+    right: 10px;
+  }
+
+  .article-date p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .article-texte {
+    left: 10px;
+    right: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .international-2 img,
+  .international-3 img {
+    padding-top: 40px;
+  }
+
+  .international-2 .article-date p,
+  .international-3 .article-date p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .international-2 h3,
+  .international-3 h3 {
+    font-size: 14px;
+    line-height: 46px;
+  }
+
+  .international-2 p,
+  .international-3 p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .comment {
+    left: 10px;
+  }
+
+  .comment i {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .legende .nbr-comment {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 8px;
+  }
+
+  .favourite {
+    right: 10px;
+  }
+
+  .favourite i {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}

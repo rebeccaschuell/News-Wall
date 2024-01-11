@@ -2,14 +2,18 @@
   // margin-top: 16px;
 }
 
+.col {
+  padding: 4px;
+}
+
 .row > .col,
 .row > [class^="col-"] {
   // padding-top: 12px;
   // padding-bottom: 12px;
   // background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
-.row {
-  color: 3px solid blue;
-}
+// .row {
+//   color: 3px solid blue;
+// }

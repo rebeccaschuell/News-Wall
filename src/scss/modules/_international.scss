@@ -114,7 +114,7 @@ p {
   color: #f40f97;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
   .international-1,
   .international-2,
   .international-3 {
@@ -166,7 +166,7 @@ p {
 
   .international-2,
   .international-3 {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .comment {
@@ -206,6 +206,11 @@ p {
     right: 10px;
   }
 
+  .international-2 .article-date,
+  .international-3 .article-date {
+    margin-top: 40px;
+  }
+
   .article-date p {
     font-size: 14px;
     line-height: 24px;
@@ -240,7 +245,7 @@ p {
   .international-2 h3,
   .international-3 h3 {
     font-size: 14px;
-    line-height: 46px;
+    line-height: 24px;
   }
 
   .international-2 p,

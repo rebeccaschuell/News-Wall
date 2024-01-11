@@ -49,6 +49,14 @@ img {
   margin-right: auto;
 }
 
+@media (max-width: 1054px) {
+  h2 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2.24px;
+  }
+}
+
 @media (max-width: 1024px) {
   .storie-1,
   .storie-2,

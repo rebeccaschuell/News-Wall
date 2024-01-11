@@ -20,6 +20,7 @@ html {
   font-family: "Open Sans", sans-serif;
   background-color: #000000;
   margin-bottom: 80px;
+  // margin-top: 40px;
 }
 
 body {
@@ -55,8 +56,8 @@ video {
 }
 
 hr {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
   border: 1px solid #f40f97;
   margin-top: 100px;
 }
@@ -73,7 +74,7 @@ h1 {
 }
 
 .first-lign {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 @media (max-width: 1024px) {
@@ -115,5 +116,5 @@ h1 {
   width: 100%;
   height: 100%;
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
-  pointer-events: none; /* Permet aux événements de souris de passer à travers la superposition vers l'image en dessous */
+  pointer-events: none;
 }

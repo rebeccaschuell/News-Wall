@@ -72,6 +72,10 @@ h1 {
   margin-top: 120px;
 }
 
+.first-lign {
+  margin-top: 60px;
+}
+
 @media (max-width: 1024px) {
   hr {
     margin-top: 80px;
@@ -84,6 +88,10 @@ h1 {
     margin-bottom: 14px;
     margin-top: 80px;
   }
+
+  .first-lign {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 390px) {
@@ -93,6 +101,10 @@ h1 {
     letter-spacing: 2.56px;
     margin-bottom: 10px;
     margin-top: 60px;
+  }
+
+  .first-lign {
+    margin-top: 40px;
   }
 }
 

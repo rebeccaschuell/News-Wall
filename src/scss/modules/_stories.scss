@@ -4,9 +4,22 @@
 .storie-4,
 .storie-5,
 .storie-6 {
+  height: 600px;
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+.storie-1 img,
+.storie-2 img,
+.storie-3 img,
+.storie-4 img,
+.storie-5 img,
+.storie-6 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 14px;
 }
 
 h2 {
@@ -22,36 +35,59 @@ h2 {
 }
 
 img {
-  //   height: max-content;
-  //   border: 3px solid red;
   margin-bottom: 14px;
 }
 
-.stories-phone {
+.slider {
   display: none;
 }
 
-// @media (max-width: 390px) {
-//   .stories {
-//     display: none;
-//     height: 300px;
-//   }
+.slider img {
+  height: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-//   .stories-mobile {
-//     display: block;
-//   }
-// }
+@media (max-width: 1024px) {
+  .storie-1,
+  .storie-2,
+  .storie-3,
+  .storie-4,
+  .storie-5,
+  .storie-6 {
+    height: 500px;
+  }
 
-// @media (max-width: 1024px) {
-//   .stories {
-//     height: 500px;
-//   }
-// }
-@media (max-width: 992px) {
+  h2 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2.24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider {
+    display: block;
+  }
+
+  .storie-3,
+  .storie-4,
+  .storie-5,
+  .storie-6 {
+    display: none;
+  }
 }
 
 @media (max-width: 390px) {
-  .stories {
+  .slider {
+    display: block;
+  }
+
+  .storie-3,
+  .storie-4,
+  .storie-5,
+  .storie-6 {
     display: none;
   }
 }
